@@ -1,0 +1,24 @@
+[
+  {
+    "name": "github",
+    "img": "./images/product-1.jpg",
+    "url": "https://github.com",
+    "id": 1
+  },
+  {
+    "name": "百度",
+    "img": "./images/product-2.webp",
+    "url": "https://www.baidu.com",
+    "id": 2
+  },{
+  "name": "拉钩",
+  "img": "./images/product-3.webp",
+  "url": "https://kaiwu.lagou.com",
+  "id": 3
+},{
+  "name": "腾讯视频",
+  "img": "./images/product-4.webp",
+  "url": "https://v.qq.com/",
+  "id": 4
+}
+]

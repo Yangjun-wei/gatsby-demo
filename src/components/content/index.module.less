@@ -1,0 +1,50 @@
+.content{
+  display: flex;
+  width: 600px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 50px auto 40px auto;
+}
+
+.block{
+  cursor:pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px 0 0;
+  width: 100px;
+  >div{
+    &:first-child{
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background-color: #e8e8e8;
+      overflow: hidden;
+    }
+    &:nth-child(2){
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  }
+}
+
+.addUrl{
+  >div:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 48px;
+  }
+}
+
+.modalBody{
+  >div{
+    >:global(.ant-input){
+      margin: 6px 0 10px 0;
+      background-color: #e8e8e8;
+      border-radius: 4px;
+    }
+  }
+}
